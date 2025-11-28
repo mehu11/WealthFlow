@@ -1,22 +1,10 @@
-# Getting Started with the App
+WealthFlow is a modern, responsive personal finance dashboard built to help users track income, expenses, and account balances in real-time.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built using React and Firebase, this application features a modular component architecture and utilizes the Context API with useReducer for robust global state management. Unlike typical dashboards that rely on heavy charting libraries, WealthFlow implements a custom-built SVG charting engine for lightweight, performant data visualization.
 
-### `npm start`
+Key Features :
+1.)Real-time Dashboard: Instant updates on Balance, Income, and Expenses using Firebase Firestore.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.)Transaction Management: Full Create, Read, and Delete (CRUD) functionality for financial entries.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-
-
+3.)Responsive Design: A clean, mobile-first UI built with Tailwind CSS.
